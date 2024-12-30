@@ -143,6 +143,13 @@ function logout() {
     adminButton.remove();
   }
 
+  const adminButtonMobile = document.getElementById(
+    "admin-customer-btn-mobile"
+  );
+  if (adminButtonMobile) {
+    adminButtonMobile.remove();
+  }
+
   sessionStorage.removeItem("auth");
   sessionStorage.removeItem("userDetails");
 
