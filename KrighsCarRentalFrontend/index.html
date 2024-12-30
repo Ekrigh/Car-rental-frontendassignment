@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wigell Car Rental</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <!-- Login container -->
+    <div id="login-container">
+      <h2>Wigells Car-rental Login</h2>
+      <form id="login-form">
+        <input type="text" id="loginUsername" placeholder="Username" required />
+        <input type="password" id="loginPassword" placeholder="Password" required />
+        <button type="submit" class="btn btn-standard">Login</button>
+      </form>
+    </div>
+
+    <!-- Main app container-->
+    <div id="app-container" class="hidden">
+      <div id="hamburger" class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+          <nav id="sidebar-nav-btns" class="sidebar-nav">
+            <button id="load-cars-btn-mobile" class="nav-btn">Cars</button>
+            <button id="load-bookings-btn-mobile" class="nav-btn">Bookings</button>
+            <button id="logout-btn-mobile" class="nav-btn">Logout</button>
+          </nav>
+        </div>
+      </div>
+      
+      <div id="navigation">
+        <h1>Wigells</h1>
+      </a>
+        <nav id="nav-btns">
+        <button id="load-cars-btn" class="nav-btn">Cars</button>
+        <button id="load-bookings-btn" class="nav-btn">Bookings</button>
+        <button id="logout-btn" class="nav-btn">Logout</button>
+        </nav>
+      </div>
+
+      <div id="main-content">
+      </div>
+        
+        <div id="ads">
+          <div class="placeholder-text">
+            <h2>Advertisement Section</h2>
+            <p>This is a placeholder for future advertisements. It can be updated after the release.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="cars.js"></script>
+    <script type="module" src="customers.js"></script>
+  </body>
+</html>

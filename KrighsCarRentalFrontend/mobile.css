@@ -1,0 +1,45 @@
+@media (max-width: 550px) {
+  #nav-btns {
+    display: none;
+  }
+
+  #sidebar-nav-btns {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #navigation h1 {
+    position: static;
+    text-align: center;
+  }
+
+  #navigation {
+    padding: 20px 50px;
+  }
+
+  .hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .hamburger.open div {
+    background-color: #fff;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-content {
+    padding: 20px;
+  }
+}
