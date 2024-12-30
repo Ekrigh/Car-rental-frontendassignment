@@ -1,3 +1,5 @@
+SEE RECORDING FOR FINAL PRODUCT
+
 First javascript project outside of udemycourses.
 School project to build a simple frontend ui to an already existing backend supplied by the school.
 main purpose is for us to practise fetching endpoints and doing standard crudoperations in the frontend.
